@@ -1,0 +1,85 @@
+
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+
+div#wrapper{
+	margin:8% auto;
+	padding:2%;
+	width: 60%;
+	text-align: center;
+	background:lightgrey;
+	border-radius: 15px;
+}
+
+h1{
+	padding-bottom: 20px;
+}
+
+select{
+	padding: 10px;
+	border-radius:5px;
+}
+
+#select_person{
+	
+}
+
+#select_number{
+	
+}
+
+#cart{
+	margin:0 auto;
+}
+table{
+	width:50%;
+}
+
+thead{
+	font-size: 16pt;
+}
+
+tbody{
+	padding:10px;
+	border:1px solid grey;
+}
+
+td, tr {
+	padding:10px;
+	border:1px solid grey;
+}
+
+tfoot tr td{
+
+}
+
+button{
+	padding: 10px;
+	border-radius:5px;
+}
+
+button#btn_add_to_cart{
+	margin:40px;	
+}
+
+button#btn_update_cart{
+	margin:40px;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.btn_close{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	border:none;
+	margin-left: 10px;
+}

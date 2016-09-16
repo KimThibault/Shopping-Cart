@@ -1,0 +1,16 @@
+{
+   "product": [
+       {
+           "item": "Gloves",
+           "price": 19          
+       },
+       {
+           "item": "Shoes",
+           "price": 39         
+       },
+       {
+           "item": "Scarf",
+           "price": 9           
+       }
+   ]
+}

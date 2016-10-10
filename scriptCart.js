@@ -9,8 +9,8 @@ var selectedItemAndPrice;
 var itemArray = new Array; // type object
 var numUniqueItemsInCart;
 var totalNumItems;
-var closeIcon = "<button class='btn_close' onclick='removeArticle(this)'><svg class='icon icon-cross'><use xlink:href='#icon-cross'></use></svg></button>";
-
+//var closeIcon = "<button class='btn_close' onclick='removeArticle(this)'><svg class='icon icon-cross'><use xlink:href='#icon-cross'></use></svg></button>";
+var closeIcon = "<button class='btn_close' onclick='removeArticle(this)'><i class='fa fa-times' id='x-close'></i></button>";
 
 $(function() {
 

@@ -76,10 +76,12 @@ button#btn_update_cart{
   fill: currentColor;
 }
 
-.btn_close{
-	height: 30px;
-	width: 30px;
+.btn_close{	
 	border-radius: 50%;
 	border:none;
 	margin-left: 10px;
+}
+
+#x-close{
+	margin:0 auto;
 }

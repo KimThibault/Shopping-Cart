@@ -7,6 +7,7 @@
 <script type="text/javascript"></script>  
 <script type="application/json"></script>
 <script src="scriptCart.js"></script>
+<script src="https://files-stackablejs.netdna-ssl.com/stacktable.min.js"></script>
 
 
 <head>
@@ -17,14 +18,17 @@
   <link rel="stylesheet" href="stylesCart.css" type="text/css"/>   
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
   <link href="https://fonts/css/font-awesome.css">
-
   <link rel="stylesheet" href="https://i.icomoon.io/public/temp/4784329530/UntitledProject/style-svg.css"/>
+  <script src="https://johnpolacek-stacktable.js-1.0.1-16-ga0d04cd/johnpolacek-stacktable.js-a0d04cd/stackable.min.js"></script>  
   <script defer src="https://i.icomoon.io/public/temp/4784329530/UntitledProject/svgxuse.js"></script>  
+  <title>Shopping cart project</title>  
 </head>
 
 
 
 <body>
+
+<div id='super-title'>Shopping cart project in JavaScript</div>
 
 <div id="wrapper">
 
@@ -43,12 +47,12 @@
       <button id="btn_add_to_cart" onclick="addToCart()">Add to cart</button> 
     </div>
 
-    <table id="cart">
+    <table id="cart" class="table">
       <thead>
         <tr><th>Item</th><th>Quantity</th><th>Price</th><th>Line Price</th></tr>
       </thead>
       <tbody>
-        <tr><td colspan='4'>Your cart is empty</td></tr>
+        <tr><td colspan="4">Your cart is empty</td></tr>
       </tbody>
       <tfoot><tr><td colspan="3">Total</td><td id="td-total"></td></tr></tfoot> 
     </table>
